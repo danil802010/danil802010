@@ -1,0 +1,17 @@
+#maket{width:100%}
+body{background-color:#5f5}
+th{width:25%;color:#a0a}
+tr{width:25%;color:#252}
+caption{font-size:20px;color:#a0a}
+border{font-color:green}
+TD{vertical-align:top;padding:5px}
+   TD#lev{width:600px;background:#abc}
+   TD#prav{width:550px;background:pink;vertical-align:top}
+   li{font-size:17px;color:#00f;font-style:oblique}
+i{margin-left:10%;font-size:14px;color:maroon}
+b{margin-left:10%;color:#044;font-size:18px}
+a{margin-left:5%;font-size:19px;color:#070}
+h4{color:#990;margin-left:10%}
+h3{color:#444;margin-left:15%}
+hr{background-color:#500;height:2px}
+&lt;{font-family:fantasy}
