@@ -163,6 +163,6 @@ ch='<table><td id="lev">'
 +'#endif <i>//два раза!</i>'
 +'</li></ol><ul><h3>Макросы</h3><br>'
 +'<li>'
-+'</li></ul>''
++'</li></ul>'
 +'</td></table>'
 document.write(ch);
