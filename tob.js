@@ -1,6 +1,5 @@
 let nachalo;
-nachalo='<h3>Зацени</h3>'
-+'<table border="1"><td id="lev">'
+nachalo='<table border="1"><td id="lev">'
 +'<li><i>реально правильное определение максроса</i><br>'
 +'&ensp;#define SQUARE(x) ((x)*(x))-<i>Не забываем про скобки</i><br>'
 +'&ensp;<a>Также надо внимательно ставить пробелы. Тут они тоже несут смысловую нагрузку</a><br>'
