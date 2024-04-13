@@ -1,5 +1,5 @@
 let nachalo;
-nachalo='<h3>Зацени</h3>'
+nachalo='<table><h3>Зацени</h3>'
 +'<td id="lev">'
 +'<li><i>реально правильное определение максроса</i><br>'
 +'&ensp;#define SQUARE(x) ((x)*(x))-<i>Не забываем про скобки</i><br>'
