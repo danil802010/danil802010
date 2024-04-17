@@ -315,6 +315,12 @@ nachalo='<table border="1"><td id="lev">'
 +'//Display to here:<br>'
 +'//123456789012345678901234567890<br>'
 +'//Number displayed: 16 (всё не выписывал)</i><br>'
-	
-+'</li></td></table>'
-document.write(nachalo);
+	+'</li></td></table>'
+let func;
+func='<table><td id="lev">Левая</td>'
++'<td id="lpcool">средняя</td>'
++'<td id="prav">Правая</td></table>'
+
+document.write(func)+nachalo;
+
+
