@@ -1,14 +1,5 @@
 let nachalo;
-<<<<<<< HEAD
-<<<<<<< Updated upstream
 nachalo='<table border="1"><td id="lev">'
-=======
-nachalo='<h3>Зацени</h3>'
-+'<table><td id="lev">'
->>>>>>> Stashed changes
-=======
-nachalo='<table border="1"><td id="lev">'
->>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
 +'<li><i>реально правильное определение максроса</i><br>'
 +'&ensp;#define SQUARE(x) ((x)*(x))-<i>Не забываем про скобки</i><br>'
 +'&ensp;<a>Также надо внимательно ставить пробелы. Тут они тоже несут смысловую нагрузку</a><br>'
