@@ -93,10 +93,7 @@ nachalo='<table border="1"><td id="lev">'
 +'<li type="square">Символы отличные от символов-заполнителей <i> все ASCII кроме %</i></li>'
 +'<li type="square">Спецификаторы формата <i>заведуют адресами переменных</i></li>'
 +'</ul>'
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-=======
->>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
+
 	+'<table border="1"><caption>Знаки спецификатора формата и зачем нужны</caption>'
 +'<tr><td style="color:#ff0">Компонент</td><td style="color:#fff">Обяза-<br>тельный<br>'
 +'или нет</td><td style="color:#808">назначение</td></tr>'
