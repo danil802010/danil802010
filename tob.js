@@ -802,18 +802,11 @@ kon='<table>'
 +'</td><td id="prav">'
 +'</td></table>'
 
-document.write(kon)+func+nachalo;
-
-
-=======
 +'</td><td id="lpcool"></td>'
 +'<td id="prav">'
 +'Тоже что-то надо писать?'
 +'</td></table>'
-document.write(nachalo);
->>>>>>> Stashed changes
-=======
-+'</td></table>'
+
 let kon;
 kon='<table>'
 +'<td id="lev"><h5>Конструкторы по умолчанию и конструкторы копирования</h5><br>'
