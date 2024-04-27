@@ -1,10 +1,14 @@
 let nachalo;
+<<<<<<< HEAD
 <<<<<<< Updated upstream
 nachalo='<table border="1"><td id="lev">'
 =======
 nachalo='<h3>Зацени</h3>'
 +'<table><td id="lev">'
 >>>>>>> Stashed changes
+=======
+nachalo='<table border="1"><td id="lev">'
+>>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
 +'<li><i>реально правильное определение максроса</i><br>'
 +'&ensp;#define SQUARE(x) ((x)*(x))-<i>Не забываем про скобки</i><br>'
 +'&ensp;<a>Также надо внимательно ставить пробелы. Тут они тоже несут смысловую нагрузку</a><br>'
@@ -98,7 +102,10 @@ nachalo='<h3>Зацени</h3>'
 +'<li type="square">Символы отличные от символов-заполнителей <i> все ASCII кроме %</i></li>'
 +'<li type="square">Спецификаторы формата <i>заведуют адресами переменных</i></li>'
 +'</ul>'
+<<<<<<< HEAD
 <<<<<<< Updated upstream
+=======
+>>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
 	+'<table border="1"><caption>Знаки спецификатора формата и зачем нужны</caption>'
 +'<tr><td style="color:#ff0">Компонент</td><td style="color:#fff">Обяза-<br>тельный<br>'
 +'или нет</td><td style="color:#808">назначение</td></tr>'
@@ -741,6 +748,7 @@ func='<table><td id="lev"><a>Левая</a><br>'
 +'<li type="disc">деструктор не может быть объявлен с модификатором <br>'
 +'const,volatile,static или virtual.</li>'
 +'</ul>'
+<<<<<<< HEAD
 +'</td></table>'
 let kon;
 kon='<table>'
@@ -813,3 +821,70 @@ document.write(kon)+func+nachalo;
 +'</td></table>'
 document.write(nachalo);
 >>>>>>> Stashed changes
+=======
++'</td></table>'
+let kon;
+kon='<table>'
++'<td id="lev"><h5>Конструкторы по умолчанию и конструкторы копирования</h5><br>'
++'<li><a>Указатель this</a><br>'
++'<i>Так как this передаётся по умолчанию, то:</i><br>'
++'ObjName.FuncName(par1,par2); <i>компилирует так:</i><br>'
++'ObjName.FuncName(&ObjName,par1,par2);<br>'
++'<a>использование указателя this</a><br>'
++'#include<iostream><br>'
++'#include<string.h><br>'
++'using namespace std;<br>'
++'class T{<br>'
+	+'public:<br>'
+		+'T(char*);<br>'
+		+'void Greeting();<br>'
+	+'	char item[20];};<br>'
++'T::T(char* name){<br>'
+	+'strcpy(item,name);<br>'
+	+'Greeting();         <i>//eqvi</i><br>'
+	+'this->Greeting();   <i>//val</i><br>'
++'(*this).Greeting();} <i>//entni</i><br>'
++'void<br>'
++'T::Greeting(){<br>'
+	+'<i>//eqvivalent oba</i><br>'
+	+'cout<<"Hello, "<<item<<"\n";<br>'
+	+'cout<<"Hello, "<<this->item<<"\n";}<br>'
++'int main(){<br>'
+    +'system("color 2f");<br>'
+    +'setlocale(LC_ALL, "Rus");<br>'
+    +'T ob("diareja.");<br>'
+  +'  return 0;<br>'
++'} <i>//Hello, diareja. (6 раз)</i><br></li><li>'
++'<a>Встраиваемые(inline-) функции</a><br>'
++'<ul>inline - функция не работает если:'
++'<li type="square">содержит оператор цикла(for,while,do-while);</li>'
++'<li type="square">содержит оператор switch или goto;</li>'
++'<li type="square">содержит статическую переменную(static);</li>'
++'<li type="square">если функция является рекрсивной;</li>'
++'<li type="square">имеет возвращаемый тип, отличный от void, и не содержит '
++'оператора return;</li>'
++'<li type="square">содержит встроенный код ассемблера</li>'
++'</ul>'
++'<a>Пример:</a><br>'
++'#include<iostream><br>'
++'using namespace std;<br>'
++'inline int even(int x){<br>'
+	+'return !(x%2);}<br>'
++'int main(){<br>'
+  +'  system("color 2f");<br>'
++'    setlocale(LC_ALL, "Rus");<br>'
+    	 +'int n;<br>'
+    	 +'cin>>n;<br>'
+    	+' if(even(n)) cout<<n<<" chet\n";<br>'
+    +'	 else cout<<n<<" nechet\n";<br>'
+  +'  return 0;<br>'
++'} <i>//5 nechet<br>'
++'  //4 chet</i><br>'
++'</li>'
++'</td><td id="prav">'
++'</td></table>'
+
+document.write(kon)+func+nachalo;
+
+
+>>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
