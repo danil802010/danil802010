@@ -736,9 +736,7 @@ func='<table><td id="lev"><a>Левая</a><br>'
 +'<li type="disc">деструктор не может быть объявлен с модификатором <br>'
 +'const,volatile,static или virtual.</li>'
 +'</ul>'
-+'</td></table>'
-let kon;
-
++'</td></table>
 
 let kon;
 kon='<table>'
