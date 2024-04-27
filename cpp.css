@@ -1,30 +1,14 @@
 #maket{width:100%}
-<<<<<<< HEAD
 body{background-color:#fa5}
-=======
-body{background-color:#af5}
->>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
 th{width:25%;color:#a0a}
 tr{width:25%;color:#252}
-caption{font-size:20px;color:#a5a}
+caption{font-size:20px;color:#a0a}
 border{font-color:green}
 TD{vertical-align:top;padding:5px}
-<<<<<<< Updated upstream
    TD#lev{width:550px;background:#abc}
    TD#prav{width:600px;background:pink;vertical-align:top}
     TD#lpcool{width:50px;background:#ff5}  
 li{font-size:16px;color:#00f;font-style:oblique}
-=======
-   TD#lev{width:600px;background:#abc}
-   TD#lpcool{width:50px;background:#cef}
-   TD#prav{width:550px;background:pink;vertical-align:top}
-<<<<<<< HEAD
-   li{font-size:17px;color:#00f;font-style:oblique}
->>>>>>> Stashed changes
-=======
-    TD#lpcool{width:50px;background:#ff5}  
-li{font-size:16px;color:#00f;font-style:oblique}
->>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
 i{margin-left:10%;font-size:14px;color:maroon}
 b{margin-left:10%;color:#044;font-size:18px}
 a{margin-left:5%;font-size:19px;color:#070}
@@ -32,7 +16,3 @@ h4{color:#990;margin-left:10%}
 h3{color:#444;margin-left:15%}
 hr{background-color:#500;height:2px}
 &lt;{font-family:fantasy}
-<<<<<<< HEAD
-=======
-p{padding-left:15%}
->>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
