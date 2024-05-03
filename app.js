@@ -1,25 +1,3 @@
-<<<<<<< HEAD
-<<<<<<< Updated upstream
-let grob;
-grob='<table><td id="lev"><h4>poleveem</h4></td>'
-  let a,b,c;
-a="привет, ",b="животное, ",c="как дела?";
-alert(a+b+c);
-+'<td id="lpcool"></td>'
-+'<td id="prav"><h4>popravimsja</h4></td></table>'
-=======
-let grob;
-grob='<table><td id="lev"><h4>poleveem</h4>'
- 
-+'</td><td id="lpcool"></td>'
-+'<td id="prav"><h4>popravimsja</h4></td></table>'
-
-document.write(grob);
->>>>>>> 4d4585de1d0e7025e3dd6af22da696d767e8dfe5
-
-document.write(grob);
-
-=======
 let ch;
 ch='<table><td id="lev">'
 +'<b style="color:blue">Левая колонка!</b><br>'
@@ -171,4 +149,4 @@ ch='<table><td id="lev">'
 +'</ul>'
 +'</td></table>'
 document.write(ch);
->>>>>>> Stashed changes
+
