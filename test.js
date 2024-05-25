@@ -614,4 +614,10 @@ vos='<h3>Начинаем писать</h3>'
 +'</li></ul>'
 +'</td></table>'
 
-document.write(vos);
+let per;
+per='<table><td id="lev">'
++'</td><td id="prav">'
++'</td></table>'
+
+document.write(per);
+//vos
