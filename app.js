@@ -751,7 +751,12 @@ mn='<table><td id="lev">'
 +'Pt1 && Pt3 istinno<br>'
 +'Pt1 && Pt4 logno</i><br>'
 +'</li></ul>'
++'</td></table>'
+ 
+let per;
+per='<table><td id="lev">'
++'</td><td id="prav">'
++'</td></table>'
 
-+'</td></table>' 
-document.write(mn)+ch;
-
+document.write(per);
+//ch,mn
