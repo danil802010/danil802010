@@ -813,10 +813,23 @@ znak='<table><td id="lev">'
 +'| 7 | 9 | 2 | 6 | 3 | 9 |<br>'
 +'| 3 | 7 | 8 | 1 |<br>'
 +'| 9 | 5 |<br>'
-
-
-
-	  
++'</li><li>'
++'<a>Далее рассмотрим страшный символьный массив</a><br>'
++'#include<iostream><br>'
++'using namespace std;<br>'
++'int main(){ <i>//начинаем цирк</i><br>'
+    +'setlocale(LC_ALL, "Rus");<br>'
+  +'  char* str[3]={"красный ","жёлтый ","зелёный"};<br>'
++'    for(int i=0;i<3;i++){<br>'
+    	+'cout&lt;&lt;str[i]&lt;&lt;endl;}<br>'
+    +'<i>//обращаемся к элементам:</i><br>'
+  +'  cout&lt;&lt;str[0][3]&lt;&lt;str[1][1]&lt;&lt;str[0][1];<br>'
++'    cout&lt;&lt;str[2][5]&lt;&lt;str[1][5]&lt;&lt;endl;<br>'
+ 	+'system("pause"); <i>// nado</i><br>'
+  +'return 0;<br>'
++'} <i>//красный,жёлтый,зелёный,серый</i><br>'
++'<a>Тут зоздаётся одномерный массив указателй на указатели на символьные значения'
++'<i>(кому это надо)</i></a><br>'
 
 +'</li>'
 +'</ol>'
